@@ -25,6 +25,7 @@
 .column-left{
     width: 8%;
     justify-content: space-around;
+    height: 100%;
 }
 
 .column-left .button{
@@ -34,6 +35,7 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
+    justify-content: center;
 }
 
 .column-left .button div{
@@ -42,6 +44,7 @@
 
 .column-centre{
     width: 30%;
+    height: 100%;
     margin: 0 auto;
     justify-content: space-around;
 }
@@ -53,6 +56,7 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
+    justify-content: center;
 }
 
 .column-centre .button div{
@@ -63,10 +67,19 @@
     width: 5%;
     justify-content: space-around;
     color: #FF2639;
+    height: 100%;
+    align-items: center;
+    background-color: #4A4A4A;
+    text-decoration: none;
 }
 
 header{
     display: flex;
     height: 100vh;
     align-items: flex-end;
+}
+
+/* main */
+main{
+    background-color: #000000;
 }
